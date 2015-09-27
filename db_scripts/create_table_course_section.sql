@@ -5,6 +5,7 @@ create table course_section (
     TERM_ID varchar(30),
     SEC_NUM varchar(3),
     F_ID int,
+	MTG_DAYS varchar(10),
     START_TIME varchar(10),
     END_TIME varchar(20),
     LOC_ID int,
