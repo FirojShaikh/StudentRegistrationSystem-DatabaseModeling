@@ -18,7 +18,7 @@ create table student (
 
 	constraint `fk_student_faculty`
 	foreign key `fk_student_faculty`(`F_ID`)
-	references student(`F_ID`)
+	references faculty(`F_ID`)
 	on delete no action
 	on update no action
-)
+)ENGINE = InnoDB;

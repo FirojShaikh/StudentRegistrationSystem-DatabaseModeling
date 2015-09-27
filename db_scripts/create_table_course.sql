@@ -5,4 +5,4 @@ create table course (
     COURSE_NAME varchar(200),
     CREDITS int,
 	primary key (COURSE_ID)
-)
+)ENGINE = InnoDB;

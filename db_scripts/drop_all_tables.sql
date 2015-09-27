@@ -1,0 +1,8 @@
+-- DROP ALL TABLES
+DROP TABLE IF EXISTS `enrollment`;
+DROP TABLE IF EXISTS `course_section`;
+DROP TABLE IF EXISTS `course`;
+DROP TABLE IF EXISTS `student`;
+DROP TABLE IF EXISTS `faculty`;
+DROP TABLE IF EXISTS `location`;
+DROP TABLE IF EXISTS `term`;

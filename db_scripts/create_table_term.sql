@@ -5,4 +5,4 @@ create table term (
     STATUS varchar(200),
     START_DATE date,
 	primary key (TERM_ID)
-)
+)ENGINE = InnoDB;

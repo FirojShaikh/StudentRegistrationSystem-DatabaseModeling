@@ -5,4 +5,4 @@ create table location (
     ROOM varchar(10),
     CAPACITY int,
 	primary key(LOC_ID)
-)
+)ENGINE = InnoDB;

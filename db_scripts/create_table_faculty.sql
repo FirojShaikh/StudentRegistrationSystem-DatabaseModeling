@@ -22,4 +22,4 @@ create table faculty (
 	references location(LOC_ID)
 	on delete no action
 	on update no action
-)
+)ENGINE = InnoDB;

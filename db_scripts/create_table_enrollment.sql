@@ -1,7 +1,7 @@
 
 create table enrollment (
     S_ID int,
-    C_SEC_ID varchar(30),
+    C_SEC_ID int,
     GRADE varchar(30) null,
 
 	constraint `fk_enrollment_student`
@@ -15,4 +15,4 @@ create table enrollment (
 	references `course_section` (`C_SEC_ID`)
 	on delete no action
 	on update no action
-)
+)ENGINE = InnoDB;
