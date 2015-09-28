@@ -1,0 +1,6 @@
+SELECT *
+FROM term
+WHERE TERM_DESC LIKE ‘%Fall 2007%’ OR
+	TERM_DESC LIKE ‘%Spring 2008%’
+	OR TERM_DESC LIKE ‘%Summer
+		2008%’
